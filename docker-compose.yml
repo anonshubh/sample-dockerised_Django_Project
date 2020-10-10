@@ -29,6 +29,7 @@ services:
             - POSTGRES_DB=postgres
             - POSTGRES_USER=postgres
             - POSTGRES_PASSWORD=postgres
+            - PGUSER=postgres
 
 volumes: 
     static_data:
